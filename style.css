@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    background-color: #0F1111;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    
+    
+    
+}
+/* box1 */
+.logo{
+    height: 50px;
+    width: 110px;
+    background-image: url(amazon_logo.jpeg);
+    background-size: cover;
+   
+   
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.hover:hover{
+    cursor: pointer;
+}
+/* box2 */
+.address{
+    padding: 2px;
+}
+
+.first-address{
+    
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 10px;
+    
+    
+}
+.second-address{
+    font-size: 0.85rem;
+   
+    
+}
+/* box-3 */
+.search-bar{
+    display: flex;
+    height: 40px;
+    
+
+
+}
+.select{
+    background-color: #e6e6e6;
+    color: #0F1111;
+    padding: 0px 0px 0px 5px;
+    height: 40px;
+    width: 52px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-box{
+    height: 38px;
+    width: 532px;
+    border: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    height: 40px;
+    width: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 186, 3);
+    color: black;
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/* box4 */
+.nav-signin{
+    padding-top: 5px;
+    text-align: center;
+}
+.nav-sfont{
+    font-size: 12px;
+}
+.nav-lfont{
+    font-size: 14px;
+}
+.down-arrow{
+    padding-left: 8px;
+}
+/* box-5 */
+.nav-order{
+    padding-top: 5px;
+    text-align: center;
+}
+box-6
+.nav-cart{
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.cart-png{
+    font-size: 16px;
+}
+.cart-font{
+    font-size: 14px;
+}
+/* menu-sec */
+.menu-sec{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+
+}
+.menu-sec p{
+    padding-right: 50px;
+    font-size: 14px;
+}
+.menu-sec i{
+    padding-left: 8px;
+
+}
+/* hero-sec */
+.hero-sec{
+    background-image: url(hero-sec.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    
+
+    
+}
+.hero-sec p{
+    height: 40px;
+    
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100em;
+
+}
+.hero-sec a{
+    color: #007185;
+}
+.box-content{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    background-color: #e2e7e6;
+
+}
+.box{
+    width: 25%;
+    background-color:white;
+    padding: 20px 0px 15px;
+    
+   
+    
+}
+.box-image{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-mat{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-mat p{
+    color: #007185;
+
+}
+.foot-panel1{
+    height: 126px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid black;
+}
+.foot1-sign{
+    width: 230px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: rgb(252, 186, 3);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.foot-panel1 a{
+    color: #007185;
+}
+.footer-panel2{
+    height: 49px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-panel3{
+    height: 292px;
+    display: flex;
+    background-color: #222f3d;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    
+}
+.first_line{
+    font-size: 20px;
+}
